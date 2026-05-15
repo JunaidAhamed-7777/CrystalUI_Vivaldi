@@ -72,7 +72,7 @@ Status:
 
 ```txt
 .
-├── custom.css
+├── vivaldi_styling.css
 └── README.md
 ```
 
