@@ -7,7 +7,19 @@
 
 
 /* Forces transparency on the Speed Dial navigation container */
-.speed-dial-container {
+/* Target the specific header container on the Start Page */
+.startpage .startpage-navigation {
     background-color: transparent !important;
-    backdrop-filter: blur(10px); 
+    backdrop-filter: blur(10px) !important;
+}
+
+/* Clear any inherited background from the navigation buttons area */
+.startpage .sd-nav {
+    background-color: transparent !important;
+    background: none !important;
+}
+
+/* Ensure the wrapper doesn't have a solid fill */
+.sd-nav-wrapper {
+    background-color: transparent !important;
 }
