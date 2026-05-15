@@ -155,3 +155,19 @@ kill myself beforet this fucking issue is fixed
 .tab.active .tab-header {
     opacity: 1 !important;
 }
+
+/*BUGFIX
+Making sdnav transparent because blur effect overlaps over te searchbar
+*/
+
+.startpage-navigation,
+.sd-nav-wrapper,
+.sd-nav {
+    background-color: transparent !important;
+    backdrop-filter: none !important; 
+}
+
+#header, .mainbar {
+    backdrop-filter: blur(10px) !important;
+    background-color: rgba(0, 0, 0, 0.1) !important; 
+}
