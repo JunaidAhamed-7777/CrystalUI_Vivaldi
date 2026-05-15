@@ -118,3 +118,17 @@
 #panels-container::after {
     display: none !important;
 }
+
+/*
+I am aware that the widget folder goes out of focus when hovering over sdnav
+and stays out of focus when switching folders using sdnav
+but it seems that fixing this would be impossible
+since vivaldi assumes that we are editing the widget folder when we are hovering over it 
+and thus applies the "inactive" class to sdnav
+
+Kindly pull and merge if you have any suggestions on how to fix this, 
+but for now I will just leave it as is since it is not a major issue
+and it takes too much fucking time to try and fix this dumb shit
+and so I'm temporarily giving up on fixing this issue because I know that I will
+kill myself beforet this fucking issue is fixed
+*/
