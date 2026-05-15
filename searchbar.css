@@ -1,0 +1,5 @@
+/* Makes the address/search bar area transparent */
+.mainbar {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px); /* Optional: adds a frost effect */
+}
