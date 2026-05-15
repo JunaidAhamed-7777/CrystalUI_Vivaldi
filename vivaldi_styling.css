@@ -171,3 +171,23 @@ Making sdnav transparent because blur effect overlaps over the searchbar
     backdrop-filter: blur(10px) !important;
     background-color: rgba(0, 0, 0, 0.1) !important; 
 }
+
+/* BUGFIX
+making the search dropdown be above every other element in the webpage */
+
+#modal-bg,
+.viva-search-dropdown,
+.addressfield-results-container,
+.UrlBar-AddressField .searchfield {
+    position: fixed !important;
+    z-index: 9999999 !important;
+    display: block !important;
+}
+
+.mainbar {
+    z-index: 5 !important;
+}
+
+.startpage-navigation {
+    z-index: 4 !important;
+}
