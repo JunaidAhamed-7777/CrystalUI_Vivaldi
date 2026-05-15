@@ -1,0 +1,13 @@
+/* Makes the address/search bar area transparent-glassy */
+.mainbar {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px); 
+}
+
+
+
+/* Forces transparency on the Speed Dial navigation container */
+.speed-dial-container {
+    background-color: transparent !important;
+    backdrop-filter: blur(10px); 
+}
