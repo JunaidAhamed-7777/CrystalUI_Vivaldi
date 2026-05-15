@@ -80,8 +80,8 @@ Status:
 
 # Screenshots
 
-<img width="1919" height="1022" alt="image" src="https://github.com/user-attachments/assets/551498a9-2f78-4507-83ba-3b9a66d0448f" />
-<img width="1919" height="1019" alt="image" src="https://github.com/user-attachments/assets/f6fe5e5b-72c5-4262-affa-85c0eea6cc47" />
+<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/6369d63d-ebc1-4f9f-a5a6-be14de6b26b6" />
+<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/1e744d47-1166-485b-afb1-8d92f55bc3c2" />
 
 
 # Credits
