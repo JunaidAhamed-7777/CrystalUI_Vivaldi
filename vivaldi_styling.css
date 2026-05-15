@@ -191,3 +191,20 @@ making the search dropdown be above every other element in the webpage */
 .startpage-navigation {
     z-index: 4 !important;
 }
+
+/* Making nav buttons rounded */
+.button-toolbar button,
+.button-toolbar > button,
+.ToolbarButton-Button {
+    border-radius: 12px !important; 
+    margin-right: 2px !important;   
+}
+
+.button-toolbar button:hover,
+.button-toolbar button:active {
+    border-radius: 8px !important;
+}
+
+.address-bar .separator {
+    display: none !important;
+}
