@@ -208,3 +208,26 @@ making the search dropdown be above every other element in the webpage */
 .address-bar .separator {
     display: none !important;
 }
+
+/*Making searchbar bar rounded*/
+.addressfield, 
+.searchfield, 
+.UrlBar-AddressField,
+.UrlBar-SearchField {
+    border-radius: 20px !important;
+    overflow: visible !important; 
+    background-color: transparent !important;
+}
+
+.addressfield-inner,
+.searchfield-inner,
+.addressfield > .pageload-indicator {
+    border-radius: 20px !important;
+    overflow: hidden !important; 
+}
+
+.addressfield-results-container {
+    display: block !important;
+    visibility: visible !important;
+    z-index: 999999 !important;
+}
