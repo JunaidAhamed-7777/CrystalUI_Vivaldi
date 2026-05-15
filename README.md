@@ -80,13 +80,15 @@ Status:
 
 # Screenshots
 
-<img width="1919" height="1021" alt="image" src="https://github.com/user-attachments/assets/6369d63d-ebc1-4f9f-a5a6-be14de6b26b6" />
+<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/bba2e8c6-19e4-4a0d-b69b-96b1c8802ca5" />
 <img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/1e744d47-1166-485b-afb1-8d92f55bc3c2" />
 
 
 # Credits
-
 Built by Junaid
+
+Special thanks to a very special Moo who gave me an amazing playlist to listen to while debugging this CSS file,
+I'd have lost my mind without your help <3
 
 ---
 
