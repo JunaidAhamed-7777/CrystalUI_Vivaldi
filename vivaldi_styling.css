@@ -65,7 +65,7 @@
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* 1. Remove the white line/gap between Speed Dial and the side Panel */
+/* Removing white interface line between sdnav and panel */
 #main {
     background-color: transparent !important;
 }
@@ -74,7 +74,7 @@
     border: none !important;
 }
 
-/* 2. Remove the black/dark separators between the Mainbar and other elements */
+/* removing black border of Mainbar*/
 .mainbar, 
 #header,
 .startpage-navigation {
@@ -82,39 +82,39 @@
     box-shadow: none !important;
 }
 
-/* 3. Force the 'seamless' look on the sidebar junction */
+/* Forcing seamless look on sidebar junction */
 #panels-container {
     border-right: none !important;
     border-left: none !important;
     box-shadow: none !important;;
 }
 
-/* 4. Kill the horizontal line often found below the address bar area */
+/* Killing horizontal line below the address bar */
 .addressfield, 
 .searchfield {
     border: none !important;
     box-shadow: none !important;
 }
 
-/* 5. Fix for the "gap" that sometimes appears in the corner junction */
+/* Fixing gap that is in corner junction */
 #browser.win .address-bar-at-top .mainbar {
     border-bottom: none !important;
 }
 
-/* 2. Target the icon bar (Switch) specifically to remove its right border */
+/* Targetting icon bar (Switch) to remove right border */
 #switch {
     border-right: none !important;
     box-shadow: none !important;
 }
 
-/* 3. Remove borders from the individual panel content areas */
+/* Removing borders from the individual panel areas */
 .panel-group, 
 .panel {
     border: none !important;
     box-shadow: none !important;
 }
 
-/* 4. Kill the separator that sits between the panel and the webpage */
+/* Killing the separator sitting btw panel and webpage */
 #panels-container::after {
     display: none !important;
 }
