@@ -38,7 +38,7 @@
     display: none !important;
 }
 
-/* 1. Makes the entire side panel area transparent and glassy */
+/* Making toolbar (side panel) glassy */
 #panels-container,
 .panel-group,
 #switch {
@@ -49,18 +49,18 @@
     border-right: 1px solid rgba(255, 255, 255, 0.1) !important; /* Subtle separator line */
 }
 
-/* 2. Ensure individual panels (like History or Downloads) are also clear */
+/* Making individual panels glassy */
 .panel.active {
     background-color: transparent !important;
 }
 
-/* 3. Removes the default background from the panel icons bar */
+/* Removing default background from the panel icons bar */
 #switch {
     border-right: none !important;
     box-shadow: none !important;
 }
 
-/* 4. Optional: Makes the icons pop a bit more against the blur */
+/* Increasing the opacity of the active icon */
 #switch button.active {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
