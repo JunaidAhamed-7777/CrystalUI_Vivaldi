@@ -1,4 +1,4 @@
-/* Makes the address/search bar area transparent-glassy */
+/* To make addressbar area except section where adress is typed in crystal class */
 .mainbar {
     background-color: transparent !important;
     backdrop-filter: blur(10px); 
@@ -6,8 +6,8 @@
 
 
 
-/* Forces transparency on the Speed Dial navigation container */
-/* 1. Reset the entire navigation container background */
+/* To force transparency for Speed Dial navigation container */
+/* sdnav background */
 .startpage-navigation,
 .sd-nav-wrapper,
 .sd-nav {
@@ -18,22 +18,21 @@
     box-shadow: none !important;
 }
 
-/* 2. Target the button underlines - Force 'Glassy' for unselected */
+/* force glassy for unselected button titles */
 .sd-nav .button-title {
     border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
     background: transparent !important;
     transition: border-color 0.2s;
 }
 
-/* 3. Target the button underlines - Force 'Red' for selected */
-/* We target both the .active class and the aria-current state */
+/* PROBABLY redundant code, TO DO: FIX LATER MAYBE*/
 .sd-nav .sd-nav-button.active .button-title,
 .sd-nav .sd-nav-button[aria-current="page"] .button-title {
     border-bottom-color: #ff0000 !important;
     color: #ff0000 !important;
 }
 
-/* 4. Kill the default Vivaldi accent line that sits underneath */
+/* Not displaying default accent line */
 .sd-nav-wrapper::after,
 .sd-nav-wrapper::before {
     display: none !important;
