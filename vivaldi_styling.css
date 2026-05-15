@@ -64,3 +64,30 @@
 #switch button.active {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+
+/* 2. Remove the black/dark separators between the Mainbar and other elements */
+.mainbar, 
+#header,
+.startpage-navigation {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 3. Force the 'seamless' look on the sidebar junction */
+#panels-container {
+    border-right: none !important;
+    margin-right: 0 !important;
+}
+
+/* 4. Kill the horizontal line often found below the address bar area */
+.addressfield, 
+.searchfield {
+    border: none !important;
+    box-shadow: none !important;
+}
+
+/* 5. Fix for the "gap" that sometimes appears in the corner junction */
+#browser.win .address-bar-at-top .mainbar {
+    border-bottom: none !important;
+}
