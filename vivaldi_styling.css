@@ -7,19 +7,34 @@
 
 
 /* Forces transparency on the Speed Dial navigation container */
-/* Target the specific header container on the Start Page */
-.startpage .startpage-navigation {
+/* 1. Reset the entire navigation container background */
+.startpage-navigation,
+.sd-nav-wrapper,
+.sd-nav {
     background-color: transparent !important;
+    background: transparent !important;
     backdrop-filter: blur(10px) !important;
+    border: none !important;
+    box-shadow: none !important;
 }
 
-/* Clear any inherited background from the navigation buttons area */
-.startpage .sd-nav {
-    background-color: transparent !important;
-    background: none !important;
+/* 2. Target the button underlines - Force 'Glassy' for unselected */
+.sd-nav .button-title {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2) !important;
+    background: transparent !important;
+    transition: border-color 0.2s;
 }
 
-/* Ensure the wrapper doesn't have a solid fill */
-.sd-nav-wrapper {
-    background-color: transparent !important;
+/* 3. Target the button underlines - Force 'Red' for selected */
+/* We target both the .active class and the aria-current state */
+.sd-nav .sd-nav-button.active .button-title,
+.sd-nav .sd-nav-button[aria-current="page"] .button-title {
+    border-bottom-color: #ff0000 !important;
+    color: #ff0000 !important;
+}
+
+/* 4. Kill the default Vivaldi accent line that sits underneath */
+.sd-nav-wrapper::after,
+.sd-nav-wrapper::before {
+    display: none !important;
 }
