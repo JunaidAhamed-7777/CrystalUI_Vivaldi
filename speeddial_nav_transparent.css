@@ -1,11 +1,1 @@
-/* Makes the Speed Dial navigation bar translucent-glassy */
-.sd-nav {
-    background-color: transparent !important;
-    backdrop-filter: blur(10px); 
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1); /* adds a subtle separator */
-}
-
-
-.sd-nav .button-title.active {
-    border-bottom-color: rgba(255, 255, 255, 0.5) !important;
-}
+.sd-nav { border: 5px solid red !important; }
