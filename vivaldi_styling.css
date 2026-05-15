@@ -133,14 +133,14 @@ and so I'm temporarily giving up on fixing this issue because I know that I will
 kill myself beforet this fucking issue is fixed
 */
 
-/* 1. Make the active tab semi-transparent with a black tint */
+/* Making active tab glassy with a black tint */
 .tab.active {
-    background-color: rgba(0, 0, 0, 0.4) !important; /* 40% opaque black */
-    backdrop-filter: blur(10px) !important;       /* Maintains the glass effect */
+    background-color: rgba(0, 0, 0, 0.4) !important; 
+    backdrop-filter: blur(10px) !important;       
     -webkit-backdrop-filter: blur(10px) !important;
 }
 
-/* 2. Optional: Add a subtle top highlight to make the tab stand out more */
+/* Adding subtle top highlight to make tab stand out */
 .tab.active::before {
     content: "";
     position: absolute;
@@ -148,10 +148,10 @@ kill myself beforet this fucking issue is fixed
     left: 0;
     right: 0;
     height: 2px;
-    background-color: rgba(255, 255, 255, 0.2); /* Faint white line on top */
+    background-color: rgba(255, 255, 255, 0.2); 
 }
 
-/* 3. Ensure the text and favicon stay fully visible */
+/*To ensure text and favicon stay visible */
 .tab.active .tab-header {
     opacity: 1 !important;
 }
