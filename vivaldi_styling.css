@@ -37,3 +37,30 @@
 .sd-nav-wrapper::before {
     display: none !important;
 }
+
+/* 1. Makes the entire side panel area transparent and glassy */
+#panels-container,
+.panel-group,
+#switch {
+    background-color: transparent !important;
+    background: transparent !important;
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    border-right: 1px solid rgba(255, 255, 255, 0.1) !important; /* Subtle separator line */
+}
+
+/* 2. Ensure individual panels (like History or Downloads) are also clear */
+.panel.active {
+    background-color: transparent !important;
+}
+
+/* 3. Removes the default background from the panel icons bar */
+#switch {
+    border-right: none !important;
+    box-shadow: none !important;
+}
+
+/* 4. Optional: Makes the icons pop a bit more against the blur */
+#switch button.active {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
