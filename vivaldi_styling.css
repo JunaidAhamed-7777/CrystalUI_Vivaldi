@@ -7,7 +7,6 @@
 
 
 /* To force transparency for Speed Dial navigation container */
-/* sdnav background */
 .startpage-navigation,
 .sd-nav-wrapper,
 .sd-nav {
@@ -32,7 +31,7 @@
     color: #ff0000 !important;
 }
 
-/* Not displaying default accent line */
+
 .sd-nav-wrapper::after,
 .sd-nav-wrapper::before {
     display: none !important;
@@ -54,13 +53,11 @@
     background-color: transparent !important;
 }
 
-/* Removing default background from the panel icons bar */
 #switch {
     border-right: none !important;
     box-shadow: none !important;
 }
 
-/* Increasing the opacity of the active icon */
 #switch button.active {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
@@ -82,39 +79,39 @@
     box-shadow: none !important;
 }
 
-/* Forcing seamless look on sidebar junction */
+/* sidebar junction */
 #panels-container {
     border-right: none !important;
     border-left: none !important;
     box-shadow: none !important;;
 }
 
-/* Killing horizontal line below the address bar */
+/* removing horizontal line below the address bar */
 .addressfield, 
 .searchfield {
     border: none !important;
     box-shadow: none !important;
 }
 
-/* Fixing gap that is in corner junction */
+/* removing gap in corner junction */
 #browser.win .address-bar-at-top .mainbar {
     border-bottom: none !important;
 }
 
-/* Targetting icon bar (Switch) to remove right border */
+/* removing icon bar right border */
 #switch {
     border-right: none !important;
     box-shadow: none !important;
 }
 
-/* Removing borders from the individual panel areas */
+
 .panel-group, 
 .panel {
     border: none !important;
     box-shadow: none !important;
 }
 
-/* Killing the separator sitting btw panel and webpage */
+
 #panels-container::after {
     display: none !important;
 }
@@ -151,7 +148,6 @@ kill myself beforet this fucking issue is fixed
     background-color: rgba(255, 255, 255, 0.2); 
 }
 
-/*To ensure text and favicon stay visible */
 .tab.active .tab-header {
     opacity: 1 !important;
 }
