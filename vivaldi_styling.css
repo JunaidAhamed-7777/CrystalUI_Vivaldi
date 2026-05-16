@@ -230,7 +230,7 @@ making the search dropdown be above every other element in the webpage */
     z-index: 999999 !important;
 }
 
-/* Erase the internal window wrapper box-shadow seam */
+/* removing inner window wrapper box shadow */
 .inner, 
 #main, 
 #content {
