@@ -252,3 +252,29 @@ making the search dropdown be above every other element in the webpage */
     box-shadow: none !important;
     border: none !important;
 }
+
+/* =========================================
+   LIGHTEN TOP EMPTY TAB AREA
+   ========================================= */
+
+#header,
+#tabs-container,
+.toolbar-tabbar,
+.tabbar-wrapper,
+.tabbar-spacer,
+.sync-and-trash-container {
+    background-color: rgba(40, 60, 110, 0.10) !important;
+
+    backdrop-filter:
+        blur(14px)
+        brightness(0.9)
+        saturate(1.1) !important;
+
+    -webkit-backdrop-filter:
+        blur(14px)
+        brightness(0.9)
+        saturate(1.1) !important;
+
+    border: none !important;
+    box-shadow: none !important;
+}
