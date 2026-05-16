@@ -61,9 +61,9 @@ When hovering over Speed Dial navigation, the widget folder may appear unfocused
 Cause:
 - Vivaldi internally applies an "inactive" state while hovering/editing navigation components.
 
-Status:
-- No reliable fix currently found.
-- KINDLY pull and merge if you find a fix to this thanks.
+The mainbar and header are seamless at the top left corner but the seam is more visible as we go from left -> right
+Cause:
+- Probably how vivaldi samples the wallpaper, I have tried to modify the brightness and tried using background:linear-gradient{to right, but it is showing no signs of getting fixed
 
 ---
 
