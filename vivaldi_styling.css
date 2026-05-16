@@ -1,4 +1,4 @@
-/* To make addressbar area except section where adress is typed in crystal class */
+/* To make addressbar area except section where adress is typed in crystal glass */
 .mainbar {
     background-color: transparent !important;
     backdrop-filter: blur(10px); 
@@ -45,12 +45,14 @@
     background: transparent !important;
     backdrop-filter: blur(10px) !important;
     -webkit-backdrop-filter: blur(10px) !important;
-    border-right: 1px solid rgba(255, 255, 255, 0.1) !important; /* Subtle separator line */
+    border: none !important; 
 }
 
 /* Making individual panels glassy */
 .panel.active {
     background-color: transparent !important;
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
 }
 
 #switch {
@@ -165,7 +167,7 @@ Making sdnav transparent because blur effect overlaps over the searchbar
 
 #header, .mainbar {
     backdrop-filter: blur(10px) !important;
-    background-color: rgba(0, 0, 0, 0.1) !important; 
+    background-color: transparent !important; 
 }
 
 /* BUGFIX
@@ -226,4 +228,12 @@ making the search dropdown be above every other element in the webpage */
     display: block !important;
     visibility: visible !important;
     z-index: 999999 !important;
+}
+
+/* Erase the internal window wrapper box-shadow seam */
+.inner, 
+#main, 
+#content {
+    box-shadow: none !important;
+    border: none !important;
 }
