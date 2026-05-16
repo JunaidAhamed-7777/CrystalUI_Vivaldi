@@ -80,9 +80,8 @@ Cause:
 
 # Screenshots
 
-<img width="1919" height="1023" alt="image" src="https://github.com/user-attachments/assets/bba2e8c6-19e4-4a0d-b69b-96b1c8802ca5" />
-<img width="1919" height="1025" alt="image" src="https://github.com/user-attachments/assets/1e744d47-1166-485b-afb1-8d92f55bc3c2" />
-
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/208afd4e-785d-4b5c-bd2f-1dda9557c8f3" />
+<img width="1919" height="1026" alt="image" src="https://github.com/user-attachments/assets/bfa6ba22-6bfe-4fef-a771-226871447dba" />
 
 # Credits
 Built by Junaid
