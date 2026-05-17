@@ -54,17 +54,19 @@ Removes:
 
 ---
 
-# Known Issue
+# Known Issues
 
 When hovering over Speed Dial navigation, the widget folder may appear unfocused.
 
 Cause:
 - Vivaldi internally applies an "inactive" state while hovering/editing navigation components.
+
 Fix:
 - Easiest fix is to turn theme blur down to zero (Settings -> Themes -> Select Your Theme -> Editor -> Settings)
 - The CSS file already gives a blur to header
 
 The mainbar, panel and header have been tried to make as seamless as possible but the seam will be more prominent depending on what wallpaper is used
+
 Cause:
 - Probably how vivaldi samples the wallpaper, I have tried to modify the brightness and tried using background:linear-gradient{to right ...}, but vivaldi samples panel, mainbar and header blur differently so it seems impossible to find a consistent fix for all wallpapers. 
 
