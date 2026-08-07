@@ -91,5 +91,3 @@ Cause:
 # Credits
 Built by Junaid
 
-Special thanks to a very special Moo who gave me an amazing playlist to listen to while debugging this CSS file,
-I'd have lost my mind without your help <3
